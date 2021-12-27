@@ -1,0 +1,19 @@
+config:
+    - name: Agar Server FFA
+      host: 127.0.0.1
+      port: 777
+      interval: 300
+      closeCommand: gnome-terminal -- ./FFA/Stop.sh
+      startCommand: gnome-terminal -- ./FFA/Start.sh
+    - name: Agar Server Team
+      host: 127.0.0.1
+      port: 778
+      interval: 300
+      closeCommand: gnome-terminal -- ./Team/Stop.sh
+      startCommand: gnome-terminal -- ./Team/Start.sh
+    - name: Agar Server Experimental
+      host: 127.0.0.1
+      port: 779
+      interval: 300
+      closeCommand: gnome-terminal -- ./Experimental/Stop.sh
+      startCommand: gnome-terminal -- ./Experimental/Start.sh
